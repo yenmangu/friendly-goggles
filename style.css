@@ -4,6 +4,7 @@
 
 body {
   background-color: #1f2937;
+
 }
 
 .header {
@@ -35,8 +36,6 @@ ul {
   padding: 12px 12px;
 }
 
-
-
 li {
   display: flex;
   justify-content: center;
@@ -53,13 +52,15 @@ li {
 .body {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   align-items: center;
 }
 
 .section-one {
+  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .section-one-h2 {
@@ -70,3 +71,50 @@ img {
   height: 400px;
 }
 
+.section-two {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+.section-two-card {
+  width: 200px;
+  height: 200px;
+}
+
+.section-two {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9faf8;
+}
+
+.section-two-body {
+  background-color: #f9faf8;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-bottom: 48px;
+}
+
+.section-two-card {
+  width: auto;
+  height: auto;
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.section-two-img {
+  background-color: #f9faf8;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #3882fc;
+  border-radius: 10px;
+  margin: 40px 0;
+}
